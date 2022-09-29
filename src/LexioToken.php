@@ -6,7 +6,7 @@ class LexioToken
 {
 
        private string $lexioToken;
-       private string $baseurl = "localhost:8000/api";
+       private string $baseurl = "https://app.lexio.legal/api";
 
        public function __construct(string $lexioToken)
        {
