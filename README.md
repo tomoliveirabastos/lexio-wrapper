@@ -81,27 +81,8 @@ function generateFormDocument()
        $build->setTitle("MeuTitulo");
 
        $campos = [
-              "Contratante" => "resposta",
-              "Idade" => "resposta",
-              "RespLegal" => "resposta",
-              "Causas" => "resposta",
-              "DataCirurgia" => "resposta",
-              "MeninoHospital" => "resposta",
-              "Cidade" => "resposta",
-              "Numero" => "resposta",
-              "Pag" => "resposta",
-              "Discriminar" => "resposta",
-              "PgtoCirurgiao" => "resposta",
-              "PgtoAuxiliar" => "resposta",
-              "PgtoInstru" => "resposta",
-              "PgtoAnest" => "resposta",
-              "PgtoHospital" => "resposta",
-              "Protese" => "resposta",
-              "PgtoProtese" => "resposta",
-              "Forma" => "resposta",
-              "Antecedencia" => "resposta",
-              "Retencao" => "resposta",
-              "Rescisao" => "resposta"
+              "Campo1" => "resposta",
+              "Campo2" => "resposta"
        ];
 
        foreach ($campos as $k => $v) {
