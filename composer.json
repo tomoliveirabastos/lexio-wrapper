@@ -6,6 +6,7 @@
             "LexioWrapper\\": "src/"
         }
     },
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Tom Oliveira",
@@ -13,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": "^7.4|^8.0",
         "guzzlehttp/guzzle": "^7.0"
     }
 }
