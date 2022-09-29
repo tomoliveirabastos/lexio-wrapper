@@ -1,6 +1,10 @@
 # lexio-wrapper
 #### documentation - https://app.lexio.legal/lexio/documentation
 
+```bash
+composer require tomoliveirabastos/lexio-wrapper:dev-main
+```
+
 ### Example
 
 ```bash
