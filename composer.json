@@ -1,0 +1,19 @@
+{
+    "name": "tomoliveirabastos/lexio-wrapper",
+    "description": "lexio wrapper",
+    "autoload": {
+        "psr-4": {
+            "LexioWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Oliveira",
+            "email": "washington-kd@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

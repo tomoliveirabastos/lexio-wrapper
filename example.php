@@ -1,8 +1,7 @@
-# lexio-wrapper
+<?php
 
-### Example
+require __DIR__ . "/vendor/autoload.php";
 
-```bash
 use LexioWrapper\AddSigner;
 use LexioWrapper\DocumentBuild;
 use LexioWrapper\LexioToken;
@@ -81,9 +80,27 @@ function rotine()
        $build->setTitle("MeuTitulo");
 
        $campos = [
-              "Nome" => "string Nome",
-              "Sobrenome" => "string sobrenome"
-              "Endereco" => "string endereco"
+              "Contratante" => "resposta",
+              "Idade" => "resposta",
+              "RespLegal" => "resposta",
+              "Causas" => "resposta",
+              "DataCirurgia" => "resposta",
+              "MeninoHospital" => "resposta",
+              "Cidade" => "resposta",
+              "Numero" => "resposta",
+              "Pag" => "resposta",
+              "Discriminar" => "resposta",
+              "PgtoCirurgiao" => "resposta",
+              "PgtoAuxiliar" => "resposta",
+              "PgtoInstru" => "resposta",
+              "PgtoAnest" => "resposta",
+              "PgtoHospital" => "resposta",
+              "Protese" => "resposta",
+              "PgtoProtese" => "resposta",
+              "Forma" => "resposta",
+              "Antecedencia" => "resposta",
+              "Retencao" => "resposta",
+              "Rescisao" => "resposta"
        ];
 
        foreach ($campos as $k => $v) {
@@ -102,4 +119,8 @@ function rotine()
 
        var_dump($response->getContents());
 }
-```
+// $content = json_decode(receiveDocument()->getContents(), true);
+// $documentToken = $content["document"]["document_token"];
+// addSigner($documentToken);
+// download($documentToken);
+// rotine();
