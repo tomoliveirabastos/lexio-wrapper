@@ -65,7 +65,7 @@ function download(string $documentToken)
        $download->save($documentToken, $fileDestinyToSave);
 }
 
-function rotine()
+function generateFormDocument()
 {
        $lexiotoken = "SEU LEXIO TOKEN AQUI";
 
@@ -123,4 +123,4 @@ function rotine()
 // $documentToken = $content["document"]["document_token"];
 // addSigner($documentToken);
 // download($documentToken);
-// rotine();
+// generateFormDocument();

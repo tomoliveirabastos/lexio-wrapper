@@ -66,7 +66,7 @@ function download(string $documentToken)
        $download->save($documentToken, $fileDestinyToSave);
 }
 
-function rotine()
+function generateFormDocument()
 {
        $lexiotoken = "SEU LEXIO TOKEN AQUI";
 
@@ -81,9 +81,27 @@ function rotine()
        $build->setTitle("MeuTitulo");
 
        $campos = [
-              "Nome" => "string Nome",
-              "Sobrenome" => "string sobrenome"
-              "Endereco" => "string endereco"
+              "Contratante" => "resposta",
+              "Idade" => "resposta",
+              "RespLegal" => "resposta",
+              "Causas" => "resposta",
+              "DataCirurgia" => "resposta",
+              "MeninoHospital" => "resposta",
+              "Cidade" => "resposta",
+              "Numero" => "resposta",
+              "Pag" => "resposta",
+              "Discriminar" => "resposta",
+              "PgtoCirurgiao" => "resposta",
+              "PgtoAuxiliar" => "resposta",
+              "PgtoInstru" => "resposta",
+              "PgtoAnest" => "resposta",
+              "PgtoHospital" => "resposta",
+              "Protese" => "resposta",
+              "PgtoProtese" => "resposta",
+              "Forma" => "resposta",
+              "Antecedencia" => "resposta",
+              "Retencao" => "resposta",
+              "Rescisao" => "resposta"
        ];
 
        foreach ($campos as $k => $v) {
